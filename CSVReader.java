@@ -14,7 +14,7 @@ public class CSVReader {
         String br2 = null;
 		BufferedReader br = new BufferedReader(new FileReader(br2));
         String line;
-        br.readLine(); // skip header
+        br.readLine(); 
 
         while ((line = br.readLine()) != null) {
             String[] data = line.split(",");
@@ -32,7 +32,7 @@ public class CSVReader {
     }
 
 	public static Map<Integer, Employee> readEmployees1() {
-		// TODO Auto-generated method stub
+	
 		return null;
 	}
 }
